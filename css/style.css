@@ -147,6 +147,7 @@ p.desc {
 p.desc a img {
   padding-bottom: 40px;
   max-width: 75%;
+  margin: 2vh 0;
 }
 
 @media (max-width: 1000px) {
