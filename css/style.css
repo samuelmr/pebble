@@ -142,3 +142,6 @@ p.github {
   width: 558px;
   text-align: right;
 }
+p.desc {
+ clear: left; 
+}
