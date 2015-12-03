@@ -142,12 +142,14 @@ div.app h3 {
   float: left;
   font-size: 2em;
   width: 292px;
+  max-width: 80%;
 }
 
 p.github {
   float: left;
-  width: 558px;
   text-align: right;
+  width: 558px;
+  max-width: 80%;
 }
 
 p.desc {
@@ -158,4 +160,3 @@ p.desc a img {
   padding-bottom: 40px;
 }
 
-}
