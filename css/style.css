@@ -139,13 +139,21 @@ div.app {
 div.app h3 {
   float: left;
   font-size: 2em;
-  width: 280px;
+  width: 328px;
 }
+
 p.github {
   float: left;
   width: 558px;
   text-align: right;
 }
+
 p.desc {
- clear: left; 
+  clear: left; 
+}
+
+p.desc a img {
+  padding-bottom: 40px;
+}
+
 }
