@@ -87,8 +87,9 @@ p, blockquote, pre, ul, ol, li, dl, figure {
 
 .screenshot {
   background-color: black;
-  border: 8px outset gray;
+  border: 8px outset #EEE;
   border-radius: 30px;
+  box-shadow: 10px 10px 10px #666;
   padding: 33px;
   margin-right: 66px;
 }
