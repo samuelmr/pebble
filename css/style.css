@@ -130,7 +130,7 @@ h1:first-of-type {
 div.app {
   margin: 5vw 0 10vw 0;
   position: relative;
-  width: calc(100% + 15vw);
+  width: calc(100% + 10vw);
 }
 
 div.app h3 {
