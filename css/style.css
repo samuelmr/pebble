@@ -92,7 +92,7 @@ p, blockquote, pre, ul, ol, li, dl, figure {
   padding: 33px;
   margin-right: 66px;
 }
-.screenshot[width=180] {
+img[width=180].screenshot {
   border-radius: 180px;
   margin-right: 30px;
 }
@@ -140,7 +140,7 @@ div.app {
 div.app h3 {
   float: left;
   font-size: 2em;
-  width: 328px;
+  width: 292px;
 }
 
 p.github {
