@@ -12,18 +12,6 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 1000px) {
-  body {
-    padding: 0 10vw;
-  }
-}
-
-@media (max-width: 640px) {
-  body {
-    padding: 0 5vw;
-  }
-}
-
 /* headings */
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure {
@@ -149,7 +137,7 @@ p.github {
   float: left;
   text-align: right;
   width: 558px;
-  max-width: 80%;
+  max-width: 75%;
 }
 
 p.desc {
@@ -158,5 +146,30 @@ p.desc {
 
 p.desc a img {
   padding-bottom: 40px;
+  max-width: 75%;
+}
+
+@media (max-width: 1000px) {
+  body {
+    padding: 0 10vw;
+  }
+  div.app {
+    width: calc(100% + 10vw);
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 0 5vw;
+  }
+  div.app {
+    width: calc(100% + 5vw);
+  }
+  div.app h3 {
+    width: 10em;
+  }
+  p.github {
+    width: 5em;
+  }
 }
 
