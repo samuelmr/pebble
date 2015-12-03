@@ -124,3 +124,8 @@ h1:first-of-type {
   top: calc(30vh + 3.5vw);
   border-top: 0 none;
 }
+
+div.app {
+  width: calc(100% + 15vw);
+  margin: 5vw 0 15vw 0;
+}
